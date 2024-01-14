@@ -18,7 +18,7 @@ const calculate = (num1, num2, op) => {
       break
     
     default:
-      console.log('Operador errado');
+      console.log('Operador errado!!!');
   }
   return result
 }
@@ -27,3 +27,4 @@ console.log(calculate(2, 4, '+'));
 console.log(calculate(2, 4, '-'));
 console.log(calculate(2, 4, '*'));
 console.log(calculate(2, 4, '/'));
+console.log("Estamos na Branch Develop");
