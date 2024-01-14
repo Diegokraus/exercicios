@@ -18,7 +18,7 @@ const calculate = (num1, num2, op) => {
       break
     
     default:
-      console.log('Operador errado');
+      console.log('Operador errado!!!');
   }
   return result
 }
